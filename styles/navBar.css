@@ -1,0 +1,39 @@
+.navBar {
+    align-items: center;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 100px;
+    z-index: 4;
+    position: relative;
+    top: 0px;
+    display: grid;
+    grid-template-columns: 40px 496px auto 190px;
+}
+
+.navBar p {
+    font-size: 24px;
+}
+
+.buttonSignUp button {
+    background-color:#F9BDBD;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+
+}
+
+.activePage a {
+    color: #DAA520 !important;
+}
+
+.navBar ul li {
+    display: inline-block;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: black;
+}

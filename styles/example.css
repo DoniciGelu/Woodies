@@ -1,9 +1,0 @@
-.gridObjects2 {
-    position: relative;
-    bottom: 809px;
-    left: 101px;
-    gap: 80px;
-    display: grid;
-    grid-template-columns: auto auto;
-
-}

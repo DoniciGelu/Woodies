@@ -167,12 +167,25 @@ h3 {
     grid-template-columns: auto 309px 310px 397px;
 }
 
+.gridDepartment {
+    position: relative;
+    margin-left: 52px;
+     left: 55px;
+    bottom: 117px;
+    display: grid;
+    font-size: 24px;
+    align-items: center;
+    grid-template-columns: 295px 361px auto auto;
+}
+/* to do corect this margin top  */
+div.buttonPersonalized {
+    margin-top: -62px;
+}
 .buttonPersonalized button {
-    margin-top: 5px;
     background-color: #DAA520;
     color: #FFFFFF;
     border-radius: 5px;
-     margin-left: 568px;
+    margin-left: 568px;
     width: 200px;
     height: 42px;
     font-size: 16px;
@@ -202,18 +215,10 @@ h3 {
 }
 
 .gridColors {
-    margin-top: 65px;
-    position: relative;
     gap: 50px;
     margin-left: 100px;
     display: grid;
     grid-template-columns: auto auto auto;
-}
-
-.gridColors div {
-    display: grid;
-    align-content: center;
-    justify-content: center;
 }
 
 .colorRose {
@@ -241,15 +246,217 @@ h3 {
     height: 400px;
 }
 
-.gridObjects {
-    position: relative;
-    bottom: 777px;
-    left: 101px;
-    gap: 80px;
+.gridTestimony {
+    bottom: 950px;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 100px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 40px 266px 184px 614px;
 
 }
+
+.gridTestimony hr {
+    background-color:#000000;
+    width: 160px;
+    height: 2px ;
+}
+
+.gridTestimony h3 {
+    width: 579px;
+    height: 98px;
+    color: #2222221A;
+    font-size: 72px;
+}
+
+.gridColors h4 {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.gridColors img {
+    text-align: center;
+}
+
+.room {
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 80px;
+}
+ 
+.room img {
+    border-top-left-radius: 85px;
+    border-bottom-right-radius: 85px;
+}
+.contorBlues {
+    border: 2px solid blue;
+    width: 385px;
+    height: 280px;
+     border-top-right-radius: 85px;
+    border-bottom-left-radius: 85px;
+}
+ 
+.contorBlues img {
+    margin-top: 30px;
+    margin-left:20px;
+}
+
+.contorBlues p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.gridWoman {
+    display: grid;
+       grid-template-columns: 71px 210px;
+}   
+
+.gridWoman img {
+    border-radius: 30px;
+}
+
+.gridWoman p {
+
+    margin-top: 31px;
+    margin-left: -111px;
+}
+
+.gridArrow {
+    bottom: 41px;
+    position: relative;
+    left: 872px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 39px 286px 38px 37px;
+}
+
+.lineYellow {
+    margin-left: 141px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.lineYellow hr {
+    background: #E5E5E5;
+    border-radius: 10px;
+    width: 40px;
+    height: 8px;
+}
+
+.hrYellow hr {
+    background-color: #DAA520;
+}
+
+.email {
+    
+    position: relative;
+    top: -60px;
+
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 688px 343px 110px
+}
+
+.space input {
+    border-color: #DAA520;
+    border-radius: 5px;
+    width: 355px;
+    height: 40px;
+
+}
+
+.subscribe input {
+    border-color: #DAA520;
+    border-radius: 5px;
+    width: 140px;
+    height: 47px;
+    background: #DAA520;
+    color: #E5E5E5;
+}
+
+.footer img {
+    width: 508px;
+    height: 455px;
+
+}
+.footerBackground {
+    position: relative;
+    z-index: -5;
+    bottom: 174px;
+    display: grid;
+  grid-template-columns: 600px auto;
+}
+
+.footerBackground img{
+    
+    width: 671px;
+    height: 550px;
+}
+
+
+.longLine img {
+    bottom: 500px;
+    position: relative;
+    margin-left: 100px;
+    width: 750px;
+    height: 1px;
+}
+
+.gridFooter {
+    bottom: 470px;
+    position: relative;
+    margin-left: 100px;
+    display: grid;
+   grid-template-columns: 250px 140px 140px 130px 130px;
+   }
+
+.gridFooter h4 {
+    font-size: 18px;
+    color: #333333;
+   }
+
+.gridFooter p {
+    font-size: 14px;
+    color: #8D8D8D;
+}
+
+
+.logoOne {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.gridFooter img {
+    
+    width: 30px;
+    height: 30px;
+
+}
+
+.class2020  {
+        position: relative;
+    left: 522px;
+    bottom: 442px;
+
+}
+
+.class2020 p {
+    font-size:18pxs;
+    color: #8D8D8D;
+
+}
+
+
+
+    
 
 
 

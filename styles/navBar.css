@@ -7,7 +7,14 @@
     position: relative;
     top: 0px;
     display: grid;
-    grid-template-columns: 40px 496px auto 190px;
+    grid-template-columns: 36px 221px auto 146px;
+}
+
+.gridNavbar {
+    margin-left: 64px;
+    display: grid;
+    grid-template-columns: 100px 147px 162px 108px 84px;
+    gap: 20px;
 }
 
 .navBar p {

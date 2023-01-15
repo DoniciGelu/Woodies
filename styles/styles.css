@@ -6,47 +6,44 @@ body {
 }
 
 .colorPink {
-z-index:1;
-position: absolute;
-background-color: #F9BDBD;
-border-bottom-left-radius: 120px ;
-top: 0px;
-width: 370px;
-left: 979px;
-height: 800px;
+    z-index:1;
+    position: absolute;
+    background-color: #F9BDBD;
+    border-bottom-left-radius: 120px ;
+    top: 0px;
+    width: 370px;
+    left: 979px;
+    height: 800px;
 }
 
 .logoTwo img  {
-z-index: 2;
-position: absolute;
-top: 400px;
-left: 722px;
-width: 382px;
-height: 382px;    
+    z-index: 2;
+    position: absolute;
+    top: 400px;
+    left: 722px;
+    width: 382px;
+    height: 382px;    
 }
 
 .modernTable img {
-z-index: 3;
-position: absolute;
-width: 568px;
-height: 577px;
-top: 165px;
-left: 791px;
+    z-index: 3;
+    position: absolute;
+    width: 568px;
+    height: 577px;
+    top: 165px;
+    left: 791px;
 }
-
-
 
 img.lingure {
     position: absolute; 
     margin-left: 1052px;
     margin-top: 144px;
-    
 }
 
 .wooddenFurniture {
-margin-left: 150px;
-margin-top: 300px;
-margin-bottom: 120px;
+    margin-left: 150px;
+    margin-top: 300px;
+    margin-bottom: 120px;
 
 }
 
@@ -71,6 +68,7 @@ h3 {
 
 .wooddenFurniture button {
     background-color: #DAA520;
+    border-color: #DAA520;
     color: #FFFFFF;
     border-radius: 10px;
     width: 175px;
@@ -123,7 +121,7 @@ h3 {
 }
 
 .textCustomized p {
-    margin-left: 17px;
+    margin-left: 80px;
     margin-top: 99px;
     font-size: 36px;
 }
@@ -134,7 +132,7 @@ h3 {
     align-items: center;
     margin-left: 100px;
     display: grid;
-    grid-template-columns: 40px 266px 184px 614px;
+    grid-template-columns: 40px 266px 297px 614px;
 }
 
 .gridHow hr {
@@ -177,12 +175,14 @@ h3 {
     align-items: center;
     grid-template-columns: 295px 361px auto auto;
 }
-/* to do corect this margin top  */
+
 div.buttonPersonalized {
     margin-top: -62px;
 }
+
 .buttonPersonalized button {
     background-color: #DAA520;
+    border-color:#DAA520;
     color: #FFFFFF;
     border-radius: 5px;
     margin-left: 568px;
@@ -197,14 +197,13 @@ div.buttonPersonalized {
     align-items: center;
     margin-left: 100px;
     display: grid;
-    grid-template-columns: 40px 266px 184px 614px;
+    grid-template-columns: 42px 263px 399px 603px;
 }
 
 .gridCategories hr {
     background-color:#000000;
-    width: 160px;
+    width: 340px;
     height: 2px ;
-
 }
 
 .gridCategories h3 {
@@ -252,13 +251,12 @@ div.buttonPersonalized {
     align-items: center;
     margin-left: 100px;
     display: grid;
-    grid-template-columns: 40px 266px 184px 614px;
-
+   grid-template-columns: 40px 266px 456px 614px;
 }
 
 .gridTestimony hr {
     background-color:#000000;
-    width: 160px;
+    width: 414px;
     height: 2px ;
 }
 
@@ -394,7 +392,7 @@ div.buttonPersonalized {
 
 .footerBackground img{
     
-    width: 671px;
+    width: 741px;
     height: 550px;
 }
 
@@ -430,19 +428,15 @@ div.buttonPersonalized {
     display: flex;
     align-items: center;
     gap: 10px;
-    
 }
 
-
 .gridFooter img {
-    
     width: 30px;
     height: 30px;
-
 }
 
 .class2020  {
-        position: relative;
+    position: relative;
     left: 522px;
     bottom: 442px;
 
@@ -451,7 +445,6 @@ div.buttonPersonalized {
 .class2020 p {
     font-size:18pxs;
     color: #8D8D8D;
-
 }
 
 
